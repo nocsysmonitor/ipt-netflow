@@ -814,5 +814,11 @@ ipt_NETFLOW linux 2.6.x-5.x kernel module by <abc@openwall.com> -- 2008-2021.
 
 
 =========
+DEBUG
+=========
+1. Couldn't load target NETFLOW on kernel  https://github.com/aabc/ipt-netflow/issues/109
+cp /usr/lib/debug/.dwz/x86_64-linux-gnu/iptables.debug/libip6t_NETFLOW.so /usr/lib/x86_64-linux-gnu/xtables/
+cp /usr/lib/debug/.dwz/x86_64-linux-gnu/iptables.debug/libipt_NETFLOW.so /usr/lib/x86_64-linux-gnu/xtables/
+=========
 = VOILA =
 =========
