@@ -123,6 +123,8 @@ ipt_NETFLOW linux 2.6.x-5.x kernel module by <abc@openwall.com> -- 2008-2021.
    b) What to do for Debian or Ubuntu:
 
       # apt-get install iptables-dev pkg-config
+	or 
+      # apt-get install libxtables-dev pkg-config
 
    c) Otherwise, for raw iptables source build it and make install.
 
